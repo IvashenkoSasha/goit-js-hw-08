@@ -16,3 +16,5 @@ function updateTime(data) {
     console.log(currentTime);
     localStorage.setItem(KEY_TIME, JSON.parse(currentTime));
 }
+
+// this only to fix a parcel
