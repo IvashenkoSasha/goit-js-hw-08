@@ -32,6 +32,8 @@ function feedbackInputUpdate(evt) {
 
 
 function formSubmit(evt) {
+    evt.preventDefault();
+
     console.log(feedback);
     feedback.email = '';
     feedback.feedback = '';
